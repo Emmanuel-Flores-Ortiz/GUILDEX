@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    //VARIABLES
+    int num_1;
+
+    //SOLICITUD DE USUARIOS
+    cout << "=======================================================" << endl;
+    cout << "=== EL NUMERO ES PAR O IMPAR ===" << endl;
+    cout << "=======================================================" << endl;
+    cout << "NUMERO: ";
+    cin >> num_1;
+
+
+    //CALCULO
+    if (num_1 % 2)
+    {
+        cout << "=======================================================" << endl;
+        cout << "El numero: " << num_1 << " Es impar" << endl;
+        cout << "=======================================================" << endl;
+    }
+    else
+    {
+        cout << "=======================================================" << endl;
+        cout << "El numero: " << num_1 << " Es par" << endl;
+        cout << "=======================================================" << endl;
+    }
+
+}
